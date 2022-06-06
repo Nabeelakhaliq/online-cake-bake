@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "364521690330",
+    "firebase_url": "https://online-cake-ordering-95d38-default-rtdb.firebaseio.com",
+    "project_id": "online-cake-ordering-95d38",
+    "storage_bucket": "online-cake-ordering-95d38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364521690330:android:0660811e963457751a41e3",
+        "android_client_info": {
+          "package_name": "com.example.online_cake_ordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364521690330-sp4jtvuvj1gqbt0fkh1iuda7l9jqcaaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMoA791N84TXmJIU8Wj8hEFW0ETcA5wio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364521690330-sp4jtvuvj1gqbt0fkh1iuda7l9jqcaaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

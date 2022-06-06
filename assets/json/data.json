@@ -1,0 +1,786 @@
+{
+  "HomeCategories": [
+    {
+      "name": "Red & White Rounded Anniversary Cake",
+      "price": 3500,
+      "image": "assets/cake_images/img_home/anniversary.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Structured with Rose Flowers Ribbon Cake",
+      "price": 4000,
+      "image": "assets/cake_images/img_home/birthday5.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Structured Birthday Cake",
+      "price": 3000,
+      "image": "assets/cake_images/img_home/birthday1.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Mixed Food Theme Cake",
+      "price": 3800,
+      "image": "assets/cake_images/img_home/fav2.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Fruit Cake with Nuts",
+      "price": 2800,
+      "image": "assets/cake_images/img_home/fruit1.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Ribbon Birthday Cake",
+      "price": 2500,
+      "image": "assets/cake_images/img_home/birthday.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Red & White Rounded Anniversary Cake",
+      "price": 3500,
+      "image": "assets/cake_images/img_home/anniversary.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Structured with Rose Flowers Ribbon Cake",
+      "price": 4000,
+      "image": "assets/cake_images/img_home/birthday5.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Structured Birthday Cake",
+      "price": 3000,
+      "image": "assets/cake_images/img_home/birthday1.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Mixed Food Theme Cake",
+      "price": 3800,
+      "image": "assets/cake_images/img_home/fav2.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Fruit Cake with Nuts",
+      "price": 2800,
+      "image": "assets/cake_images/img_home/fruit1.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    },
+    {
+      "name": "Ribbon Birthday Cake",
+      "price": 2500,
+      "image": "assets/cake_images/img_home/birthday.jpg",
+      "isFavourite": false,
+      "isAdded": false
+    }
+  ],
+  "CakeCategories": [
+    {
+      "name": "Custom Design",
+      "image": "assets/cake_images/img_home/birthday5.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Special.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Structured Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "BirthDay Cake",
+      "image": "assets/cake_images/img_home/birthday1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Special.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Structured Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "First Year Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Special.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Structured Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Fruit Cakes",
+      "image": "assets/cake_images/img_home/fruit1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake4.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake5.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake6.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake7.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Theme Cakes",
+      "image": "assets/cake_images/img_home/cake5.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake4.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake3.png",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Anniversary Cakes",
+      "image": "assets/cake_images/img_home/anniversary.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake3.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake4.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake6.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Wedding Cakes",
+      "image": "assets/cake_images/img_home/cake1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake4.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Custom Design",
+      "image": "assets/cake_images/img_home/birthday5.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Special.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Structured Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "BirthDay Cake",
+      "image": "assets/cake_images/img_home/birthday1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Special.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/Cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pincess Birthday Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Structured Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/birthdayCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Fruit Cakes",
+      "image": "assets/cake_images/img_home/fruit1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake4.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake5.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake6.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Fruit Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/fruitCakes/cake7.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Theme Cakes",
+      "image": "assets/cake_images/img_home/cake5.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake4.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake4.png",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake1.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake3.png",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Theme Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/themeCakes/cake2.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Anniversary Cakes",
+      "image": "assets/cake_images/img_home/anniversary.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Peanut Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake3.jpg",
+          "price": 5550,
+          "rating": 5.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake4.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake5.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Pink Mashmelos Anniversary Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/anniversaryCakes/anniversarycake6.jpg",
+          "price": 3500,
+          "rating": 5.0,
+          "type": "with Egg"
+        }
+      ]
+    },
+    {
+      "name": "Wedding Cakes",
+      "image": "assets/cake_images/img_home/cake1.jpg",
+      "items": [
+        {
+          "title": "First Year Pincess Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake1.jpg",
+          "price": 2500,
+          "rating": 4.5,
+          "type": "with Egg"
+        },
+        {
+          "title": "Structured Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake2.jpg",
+          "price": 4200,
+          "rating": 3.2,
+          "type": "with Egg"
+        },
+        {
+          "title": "Simple Rounded Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake3.jpg",
+          "price": 1800,
+          "rating": 4.0,
+          "type": "with Egg"
+        },
+        {
+          "title": "Chocolate Wedding Cake",
+          "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "imageUrl": "assets/cake_images/cake_categories/weddingCakes/cake4.jpg",
+          "price": 2200,
+          "rating": 3.5,
+          "type": "with Egg"
+        }
+      ]
+    }
+  ],
+  "UserCart": [
+    {
+      "name": "Special Birthday Cake | 2 Pounds",
+      "imageUrl": "https://images.pexels.com/photos/1721934/pexels-photo-1721934.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "price": 2550,
+      "quantity": 3
+    },
+    {
+      "name": "Custom Anniversary Cake | 4 Pounds",
+      "imageUrl": "https://images.pexels.com/photos/19640/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "price": 4000,
+      "quantity": 1
+    },
+    {
+      "name": "Fruit Cake | Custom Design | 2 Pounds",
+      "imageUrl": "https://images.pexels.com/photos/913135/pexels-photo-913135.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "price": 3150,
+      "quantity": 2
+    },
+    {
+      "name": "Special Cake Design | Homemade | 8 Pounds",
+      "imageUrl": "https://images.pexels.com/photos/913136/pexels-photo-913136.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "price": 7200,
+      "quantity": 1
+    },
+    {
+      "name": "14 August Cake | Special Design | 12 Pounds",
+      "imageUrl": "https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "price": 15500,
+      "quantity": 1
+    }
+  ]
+}
