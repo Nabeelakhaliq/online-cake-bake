@@ -1,5 +1,9 @@
+import 'dart:io';
+
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:online_cake_ordering/models/custom_cart_model.dart';
 import 'package:online_cake_ordering/resources/app_colors.dart';
 import 'package:online_cake_ordering/resources/string_assets.dart';
@@ -25,6 +29,7 @@ class _CustomCakeOrderingState extends State<CustomCakeOrdering> {
   String? selectedPound;
   String? selectedFlavour;
   String? selectedCategory;
+  File? file;
 
   @override
   Widget build(BuildContext context) {
@@ -35,6 +40,9 @@ class _CustomCakeOrderingState extends State<CustomCakeOrdering> {
         child: Column(
           children: [
             const SizedBox(height: 20.0),
+          file != null
+              ? showImageUploadWidget()
+              : uploadImageWidget(),
             ListTile(
               leading: const Icon(Icons.perm_device_info, color: Colors.pink),
               title: DropdownButtonHideUnderline(
@@ -236,4 +244,116 @@ class _CustomCakeOrderingState extends State<CustomCakeOrdering> {
       ),
     );
   }
+
+  uploadImageWidget() {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Icon(
+          Icons.shop_two_outlined,
+          color: AppColors.kAccentColor,
+          size: 200,
+        ),
+        Padding(
+          padding: const EdgeInsets.all(20),
+          child: RaisedButton(
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10.0)),
+            child: const Text(
+              "Upload Your Cake Design",
+              style: TextStyle(fontSize: 20.0, color: Colors.white),
+            ),
+            color: Colors.green,
+            onPressed: () {
+              showDialog(
+                  context: context,
+                  builder: (con) {
+                    return SimpleDialog(
+                      title: const Text(
+                        "Chose Image",
+                        style:
+                        TextStyle(color: AppColors.kAccentColor, fontWeight: FontWeight.bold),
+                      ),
+                      children: [
+                        SimpleDialogOption(
+                          child: const Text(
+                            "Capture with Camera",
+                          ),
+                          onPressed: capturePhotoWithCamera,
+                        ),
+                        SimpleDialogOption(
+                          child: const Text(
+                            "Select from Gallery",
+                          ),
+                          onPressed: pickPhotoFromGallery,
+                        ),
+                        SimpleDialogOption(
+                            child: Text(
+                              "Cancel",
+                              style: TextStyle(color: Colors.red[600]),
+                            ),
+                            onPressed: () {
+                              Navigator.pop(con);
+                            }),
+                      ],
+                    );
+                  });
+            }
+            // takeImage(context),
+          ),
+        ),
+      ],
+    );
+  }
+
+  showImageUploadWidget() {
+    return SizedBox(
+      height: 250,
+      width: MediaQuery.of(context).size.width - 0.8,
+      child: Center(
+        child: AspectRatio(
+          aspectRatio: 16.0/9.0,
+          child: Container(
+            decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: FileImage(file!),
+                    fit: BoxFit.cover
+                )
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
+  // region Image Selection
+  capturePhotoWithCamera() async {
+
+    Navigator.pop(context);
+    // ignore: deprecated_member_use
+    final ImagePicker _imagePicker = ImagePicker();
+    final XFile? imageFile = await _imagePicker.pickImage(
+        source: ImageSource.camera,
+        maxHeight: 680,
+        maxWidth: 970);
+
+    setState(() {
+      file = File(imageFile!.path);
+    });
+  }
+
+  pickPhotoFromGallery() async {
+
+    Navigator.pop(context);
+    // ignore: deprecated_member_use
+    final ImagePicker _imagePicker = ImagePicker();
+    final XFile? imageFile = await _imagePicker.pickImage(
+        source: ImageSource.gallery);
+
+    setState(() {
+      file = File(imageFile!.path);
+    });
+  }
+  // endregion
+
 }

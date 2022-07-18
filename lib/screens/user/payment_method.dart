@@ -38,6 +38,8 @@ class _PaymentMethodState extends State<PaymentMethod> {
   bool isSelected = false;
   late String orderDate;
   late String imageUrl;
+  int selectedPaymentMethod = 1;
+  String paymentMethod = "Online Payment";
 
   Reference firebaseStorage = FirebaseStorage.instance.ref().child(StringAssets.paymentSSStorageReference);
   DatabaseReference databaseReference = FirebaseDatabase.instance.ref().child(StringAssets.userOrdersDetails).child(FirebaseAuth.instance.currentUser!.uid);
@@ -111,61 +113,112 @@ class _PaymentMethodState extends State<PaymentMethod> {
             Container(
               margin: const EdgeInsets.all(10.0),
               padding: const EdgeInsets.all(10.0),
-              decoration: BoxDecoration(
-                border: Border.all(
-                  color: AppColors.lightColorGrey,
-                  width: 1.0
-                )
-              ),
+              color: AppColors.lightGrey,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    child: customTextWidget("Payment ScreenShot", 20.0, Colors.black, FontWeight.bold),
+                    padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
+                    child: customTextWidget("Payment Method", 20.0, Colors.black, FontWeight.bold),
+                    // child: customTextWidget("Payment methods", 18.0, Colors.black, FontWeight.bold),
                   ),
-                  const SizedBox(height: 10.0),
                   Container(
-                    child: textWidget("Deposite the Payment in one of the following Accounts", 16.0, Colors.black, FontWeight.normal),
+                    padding: const EdgeInsets.all(10.0),
+                    child: Column(
+                      children: [
+                        RadioListTile(
+                            title: const Text("Online Payment"),
+                            value: 1,
+                            groupValue: selectedPaymentMethod,
+                            contentPadding: const EdgeInsets.all(0),
+                            selectedTileColor: AppColors.kAccentColor,
+                            activeColor: AppColors.kAccentColor,
+                            onChanged: (int? val) {
+                              setState(() {
+                                selectedPaymentMethod = val!;
+                                paymentMethod = "Online Payment";
+                              });
+                        }),
+                        RadioListTile(
+                            title: const Text("Cash on Delivery"),
+                            value: 2,
+                            groupValue: selectedPaymentMethod,
+                            selectedTileColor: AppColors.kAccentColor,
+                            activeColor: AppColors.kAccentColor,
+                            contentPadding: const EdgeInsets.all(0),
+                            onChanged: (int? val) {
+                              setState(() {
+                                selectedPaymentMethod = val!;
+                                paymentMethod = "Cash on Delivery";
+                              });
+                            })
+                      ],
+                    ),
                   ),
-                  const SizedBox(height: 5.0),
-                  Container(
-                    child: textWidget("Upload Payment Screenshot Here!", 14.0, AppColors.lightGreyColor, FontWeight.normal),
-                  ),
-                  const SizedBox(height: 30.0),
-                  InkWell(
-                    onTap: () => pickSSFromGallery(),
-                    child: SizedBox(
-                      height: 150,
-                      width: MediaQuery.of(context).size.width,
-                      child: DottedBorder(
-                        color: AppColors.grey, //color of dotted/dash line
-                        strokeWidth: 2, //thickness of dash/dots
-                        dashPattern: const [5, 5], //dash patterns, 10 is dash width, 6 is space width
-                        child: file != null
-                            ? Container(
-                          decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: FileImage(file!),
-                                  fit: BoxFit.cover
-                              )
-                          ),
-                        )
-                            : Center(
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Image.asset(Assets.imagesUploadPaymentSS, color: AppColors.grey),
-                              Container(
-                                child: textWidget("Click to choose the file or drag it here", 14.0, AppColors.lightGreyColor, FontWeight.normal),
-                              ),
-                            ],
+                ],
+              ),
+            ),
+            Visibility(
+              visible: selectedPaymentMethod == 1,
+              child: Container(
+                margin: const EdgeInsets.all(10.0),
+                padding: const EdgeInsets.all(10.0),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    color: AppColors.lightColorGrey,
+                    width: 1.0
+                  )
+                ),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Container(
+                      child: customTextWidget("Payment ScreenShot", 20.0, Colors.black, FontWeight.bold),
+                    ),
+                    const SizedBox(height: 10.0),
+                    Container(
+                      child: textWidget("Deposite the Payment in one of the following Accounts", 16.0, Colors.black, FontWeight.normal),
+                    ),
+                    const SizedBox(height: 5.0),
+                    Container(
+                      child: textWidget("Upload Payment Screenshot Here!", 14.0, AppColors.lightGreyColor, FontWeight.normal),
+                    ),
+                    const SizedBox(height: 30.0),
+                    InkWell(
+                      onTap: () => pickSSFromGallery(),
+                      child: SizedBox(
+                        height: 150,
+                        width: MediaQuery.of(context).size.width,
+                        child: DottedBorder(
+                          color: AppColors.grey, //color of dotted/dash line
+                          strokeWidth: 2, //thickness of dash/dots
+                          dashPattern: const [5, 5], //dash patterns, 10 is dash width, 6 is space width
+                          child: file != null
+                              ? Container(
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    image: FileImage(file!),
+                                    fit: BoxFit.cover
+                                )
+                            ),
+                          )
+                              : Center(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Image.asset(Assets.imagesUploadPaymentSS, color: AppColors.grey),
+                                Container(
+                                  child: textWidget("Click to choose the file or drag it here", 14.0, AppColors.lightGreyColor, FontWeight.normal),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
-                    ),
-                  )
-                ],
+                    )
+                  ],
+                ),
               ),
             ),
             Container(
@@ -218,70 +271,77 @@ class _PaymentMethodState extends State<PaymentMethod> {
                 ],
               ),
             ),
-            RadioListTile(
-                value: true,
-                activeColor: AppColors.kAccentColor,
-                tileColor: AppColors.blackColor,
-                title: const Text("Payment Methods", style: TextStyle(fontWeight: FontWeight.bold)),
-                groupValue: true,
-                selected: true,
-                contentPadding: const EdgeInsets.all(0),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("NAYAPAY"),
-                subtitle: const Text("0336-2062020 (ALI IMRAN)"),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("EasyPaisa"),
-                subtitle: const Text("0348-0694422 (ALI IMRAN)"),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("EasyPaisa"),
-                subtitle: const Text("0336-8102020 (SAJIDA PARVEEN)"),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("JazzCash"),
-                subtitle: const Text("0336-2062020 (ALI IMRAN)"),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("MEEZAN Bank"),
-                subtitle: const Text("13010105840562 (ALI IMRAN)"),
-                onChanged: (value) {}
-            ),
-            CheckboxListTile(
-                value: true,
-                controlAffinity: ListTileControlAffinity.leading,
-                activeColor: AppColors.kAccentColor,
-                checkColor: AppColors.whiteColor,
-                title: const Text("UBL Bank"),
-                subtitle: const Text("1677246851646 (ALI IMRAN)"),
-                onChanged: (value) {}
-            ),
+            Visibility(
+                visible: selectedPaymentMethod == 1 ,
+                child: Column(
+                  children: [
+                    RadioListTile(
+                        value: true,
+                        activeColor: AppColors.kAccentColor,
+                        tileColor: AppColors.blackColor,
+                        title: const Text("Online Payment Methods", style: TextStyle(fontWeight: FontWeight.bold)),
+                        groupValue: true,
+                        selected: true,
+                        contentPadding: const EdgeInsets.all(0),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("NAYAPAY"),
+                        subtitle: const Text("0336-2062020 (ALI IMRAN)"),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("EasyPaisa"),
+                        subtitle: const Text("0348-0694422 (ALI IMRAN)"),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("EasyPaisa"),
+                        subtitle: const Text("0336-8102020 (SAJIDA PARVEEN)"),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("JazzCash"),
+                        subtitle: const Text("0336-2062020 (ALI IMRAN)"),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("MEEZAN Bank"),
+                        subtitle: const Text("13010105840562 (ALI IMRAN)"),
+                        onChanged: (value) {}
+                    ),
+                    CheckboxListTile(
+                        value: true,
+                        controlAffinity: ListTileControlAffinity.leading,
+                        activeColor: AppColors.kAccentColor,
+                        checkColor: AppColors.whiteColor,
+                        title: const Text("UBL Bank"),
+                        subtitle: const Text("1677246851646 (ALI IMRAN)"),
+                        onChanged: (value) {}
+                    ),
+                  ],
+                )
+            )
           ],
         ),
       ),
@@ -310,11 +370,16 @@ class _PaymentMethodState extends State<PaymentMethod> {
             child: CustomButton(
               text: "Confirm Order",
               press: () async {
-                if(file != null) {
-                  showAlertDialog(context);
+                if(selectedPaymentMethod == 1) {
+                  if(file != null) {
+                    showAlertDialog(context);
+                  }
+                  else {
+                    Fluttertoast.showToast(msg: "Please upload payment screenshot!");
+                  }
                 }
                 else {
-                  Fluttertoast.showToast(msg: "Please upload payment screenshot!");
+                  showAlertDialog(context);
                 }
               },
             ),
@@ -356,7 +421,12 @@ class _PaymentMethodState extends State<PaymentMethod> {
       onPressed:  () async {
         Navigator.pop(context);
         progressDialog!.show();
-        uploadPaymentScreenShot();
+        if(selectedPaymentMethod == 1) {
+          uploadPaymentScreenShot();
+        }
+        else {
+          saveOrderDetails();
+        }
         // await saveOrderDetails();
       },
     );
@@ -429,10 +499,10 @@ class _PaymentMethodState extends State<PaymentMethod> {
     dbRefDeliveryAddress.child(orderedProductsDAKey).set(addressModel.toJson()).whenComplete(() {
 
       OrderModel orderModel = OrderModel(getOrderDate(), FirebaseAuth.instance.currentUser!.uid,
-          orderedProductsKey, orderedProductsDAKey, orderKey, "Pending", "Paid",
+          orderedProductsKey, orderedProductsDAKey, orderKey, "Pending", selectedPaymentMethod == 1 ? "Paid" : "Pending",
           StringAssets.noOfItems, StringAssets.subTotal.toStringAsFixed(2),
           StringAssets.shippingFee.toStringAsFixed(2), StringAssets.totalPrice.toStringAsFixed(2),
-          "Online Payment", imageUrl);
+          paymentMethod, selectedPaymentMethod == 1 ? imageUrl : "");
 
       databaseReference.child(orderKey).set(orderModel.toJson()).whenComplete(() {
 

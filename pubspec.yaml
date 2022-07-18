@@ -91,16 +91,6 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/json/
-    - assets/cake_images/
-    - assets/cake_images/
-    - assets/cake_images/shot_images/
-    - assets/cake_images/img_home/
-    - assets/cake_images/cake_categories/
-    - assets/cake_images/cake_categories/anniversaryCakes/
-    - assets/cake_images/cake_categories/birthdayCakes/
-    - assets/cake_images/cake_categories/fruitCakes/
-    - assets/cake_images/cake_categories/themeCakes/
-    - assets/cake_images/cake_categories/weddingCakes/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
